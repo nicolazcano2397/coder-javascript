@@ -2,15 +2,7 @@
 @use '../abstracts/variables';
 @use '../abstracts/mixins';
 
-
 .btn {
-  transition: all 0.3s ease;
-
-  &:hover {
-    transform: scale(1.05);
-    box-shadow: 0 0 10px rgba(1, 61, 90, 0.3);
-  }
-}.btn {
   display: inline-block;
   padding: variables.$espaciado-xs variables.$espaciado-md;
   background-color: variables.$color-primario;
@@ -19,11 +11,13 @@
   font-weight: 500;
   border: none;
   border-radius: 5px;
-  transition: background-color 0.3s ease;
+  transition: all 0.3s ease;
 
   &:hover {
+    transform: scale(1.05);
     background-color: variables.$color-acento;
     color: variables.$color-texto;
+    box-shadow: 0 0 10px rgba(1, 61, 90, 0.3);
   }
 
   &--secundario {
@@ -42,7 +36,10 @@
     text-align: center;
   }
 }
-.card, .btn, .enlace-primario {
+
+// Transiciones para otros elementos comunes
+.card,
+.btn,
+.enlace-primario {
   transition: all 0.3s ease-in-out;
 }
-
