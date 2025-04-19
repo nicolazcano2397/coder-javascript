@@ -345,4 +345,36 @@ footer a:hover {
   text-decoration: underline;
 }
 
+.cta-img-overlay {
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  min-height: 400px;
+  display: flex;
+  align-items: center;
+}
+.cta-img-overlay .overlay-dark {
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.cta-img-overlay .overlay-dark .p-5 {
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .cta-img-overlay {
+    min-height: 300px;
+  }
+}
+
+.cta-contacto {
+  color: #F4F4F4;
+}
+
+.cta-habitaciones {
+  color: #F4F4F4;
+}
+
 /*# sourceMappingURL=style.css.map */
