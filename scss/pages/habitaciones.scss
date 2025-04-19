@@ -1,0 +1,13 @@
+@use '../abstracts/variables';
+.titulo-seccion {
+    color: variables.$color-primario;
+  }
+  
+.enlace-primario {
+  color: variables.$color-primario;
+
+  &:hover {
+    color: variables.$color-acento;
+    text-decoration: underline;
+  }
+}
