@@ -2,7 +2,15 @@
 @use '../abstracts/variables';
 @use '../abstracts/mixins';
 
+
 .btn {
+  transition: all 0.3s ease;
+
+  &:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(1, 61, 90, 0.3);
+  }
+}.btn {
   display: inline-block;
   padding: variables.$espaciado-xs variables.$espaciado-md;
   background-color: variables.$color-primario;
@@ -34,3 +42,7 @@
     text-align: center;
   }
 }
+.card, .btn, .enlace-primario {
+  transition: all 0.3s ease-in-out;
+}
+

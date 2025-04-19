@@ -1,0 +1,10 @@
+.tour-card {
+    transition: transform 0.6s ease;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+  
+    &:hover {
+      transform: rotateY(360deg);
+    }
+  }
+  
