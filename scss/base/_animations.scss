@@ -9,9 +9,7 @@
     }
   }
   
-  .fade-in {
-    animation: fadeIn 0.8s ease-out forwards;
-  }
+
   @keyframes slideInRight {
     0% {
       opacity: 0;
@@ -24,6 +22,40 @@
   }
   
   .banner-slide-in {
-    animation: slideInRight 1s ease-out forwards;
+    animation: slideInRight 1.3s ease-out forwards;
+    will-change: transform, opacity;
+  }
+  
+  .fade-in {
+    animation: fadeIn 1.2s ease-out forwards;
+    will-change: transform, opacity;
+  }
+  
+  .banner-animado {
+    animation: fadeIn 0.8s ease-out forwards;
+  }
+  .banner-slide-in, .fade-in {
+    opacity: 0;
+  }
+  @keyframes fadeUp {
+    0% {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .fade-up {
+    opacity: 0;
+    animation: fadeUp 1s ease-out forwards;
+    will-change: opacity, transform;
+  }
+  
+  // Banner de entrada (reutiliza fadeUp pero con más duración si quieres)
+  .banner-entrada {
+    animation: fadeUp 1.2s ease-out both;
   }
   
