@@ -92,7 +92,7 @@
 }
 .slide-in-left {
   opacity: 0;
-  animation: slideInLeft 1s ease-out forwards;
+  animation: slideInLeft 1.4s ease-out forwards;
   will-change: opacity, transform;
 }
 
@@ -108,7 +108,7 @@
 }
 .slide-in-right {
   opacity: 0;
-  animation: slideInRight 1s ease-out forwards;
+  animation: slideInRight 1.4s ease-out forwards;
   will-change: opacity, transform;
 }
 
