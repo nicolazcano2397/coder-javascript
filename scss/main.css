@@ -529,7 +529,7 @@ footer a:hover {
   }
 }
 .imagen-hotel {
-  background-image: url("/Img-hotel/piscina_hotel_vertical.jpg");
+  background-image: url("Img-hotel/piscina_hotel_vertical.jpg");
   background-position: center;
   background-size: cover;
   height: 100%;
