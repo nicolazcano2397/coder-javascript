@@ -1,0 +1,28 @@
+@use '../abstracts/variables';
+/* scss/base/_reset.scss */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    height: 100%;
+    font-family: variables.$fuente-principal;
+    background-color: variables.$color-secundario;
+    color: variables.$color-texto;
+    scroll-behavior: smooth;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  

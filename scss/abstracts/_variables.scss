@@ -1,0 +1,22 @@
+// Colores base
+$color-primario: #013D5A;
+$color-secundario: #F4F4F4;
+$color-acento: #0090dd;
+$color-texto: #333;
+
+// Tipografía
+$fuente-principal: 'Helvetica Neue', sans-serif;
+$titulo-size: 2rem;
+$texto-size: 1rem;
+
+// Espaciado
+$espaciado-xs: 0.5rem;
+$espaciado-sm: 1rem;
+$espaciado-md: 2rem;
+$espaciado-lg: 4rem;
+$delays: (
+  delay-1: 0.2s,
+  delay-2: 0.4s,
+  delay-3: 0.6s,
+  delay-4: 0.8s
+);

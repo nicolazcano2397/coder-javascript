@@ -1,0 +1,108 @@
+@use '../abstracts/variables';
+@use '../abstracts/mixins';
+
+// Banner de contacto
+#hero-contacto {
+  background-image: url('../../Img-otros/Moai_horizontal.jpeg');
+  background-size: cover;
+  background-position: center;
+  height: 70vh;
+
+  .overlay {
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    h1 {
+      color: white;
+      font-size: 2.8rem;
+      font-weight: 700;
+      margin-bottom: 0.5rem;
+    }
+
+    p {
+      font-size: 1.2rem;
+      color: white;
+    }
+
+    @include mixins.mobile {
+      h1 {
+        font-size: 2rem;
+      }
+    }
+  }
+}
+
+// Contenedor responsive para formulario + info
+.contacto-wrapper {
+  row-gap: variables.$espaciado-md;
+
+  @include mixins.mobile {
+    flex-direction: column;
+    align-items: center;
+
+    .formulario-contacto,
+    .contacto-info {
+      width: 100%;
+      text-align: left;
+    }
+  }
+}
+
+// Estilo para formulario
+.formulario-contacto {
+  h5 {
+    color: variables.$color-primario;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: variables.$espaciado-md;
+  }
+
+  .form-label {
+    color: variables.$color-primario;
+    font-size: 0.95rem;
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+  }
+
+  .form-control {
+    font-size: 0.95rem;
+    padding: 0.5rem 0.75rem;
+    margin-bottom: 0.75rem;
+  }
+
+  textarea.form-control {
+    resize: vertical;
+  }
+
+  button {
+    margin-top: variables.$espaciado-sm;
+  }
+}
+
+// Estilo caja informativa
+.contacto-info {
+  color: variables.$color-primario;
+
+  h6 {
+    font-weight: bold;
+    margin-bottom: variables.$espaciado-sm;
+  }
+
+  a {
+    color: variables.$color-primario;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  p {
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+  }
+}

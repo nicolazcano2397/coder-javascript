@@ -1,0 +1,30 @@
+# Archivos del sistema (Mac)
+.DS_Store
+
+# Archivos de sistema de VS Code
+.vscode/
+
+# Archivos de backup temporales (por si usas editores que los generan)
+*~
+*.log
+*.tmp
+*.swp
+
+#Ignorar backups automáticos de editores
+*.bak
+
+# Carpetas o archivos que no quieras subir manualmente (ejemplo: fotos RAW, PSDs, etc.
+# /archivos-sin-subir/
+
+# Mapas de fuente CSS
+*.css.map
+
+# Cache de compilación Sass
+.sass-cache/
+.cache/
+
+# node_modules si usas npm o planificas usarlo en el futuro
+node_modules/
+
+# Archivos compilados de SCSS 
+# scss/main.css

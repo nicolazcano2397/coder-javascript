@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Encuentra los mejores tours en Rapa Nui, con guías nativos y certificados. Vive una experiencia llena de historia y cultura">
+  <link rel="icon" href="Img-otros/logo.png" type="image/x-icon">
+  <title>Tours | Hotel Rapa Nui</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom SCSS -->
+    <link rel="stylesheet" href="scss/main.css" />
+</head>
+<body>
+ <!-- NAVBAR -->
+<header>
+  <nav class="navbar navbar-expand-lg navbar-dark py-3 custom-navbar">
+    <div class="container d-flex align-items-center justify-content-between">
+      
+      <!-- Logo a la izquierda -->
+      <a class="navbar-brand fw-bold fs-4" href="index.html">
+        <img src="Img-otros/logo_blanco.png" alt="Hotel Rapa Nui Logo" style="height: 60px;">
+      </a>
+
+      <!-- Toggler para mobile -->
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Menú y botón de reserva -->
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="habitaciones.html" id="habitacionesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Habitaciones
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="habitacionesDropdown">
+              <li><a class="dropdown-item" href="habitaciones.html">Ver todas</a></li>
+              <li><a class="dropdown-item" href="habitacion_deluxe.html">Deluxe</a></li>
+              <li><a class="dropdown-item" href="habitacion_superior.html">Superior</a></li>
+              <li><a class="dropdown-item" href="habitacion_familiar.html">Familiar</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="tours.html">Tours</a></li>
+          <li class="nav-item"><a class="nav-link" href="matrimonios.html">Matrimonios Ancestrales</a></li>
+          <li class="nav-item"><a class="nav-link" href="informacion.html">Información Rapa Nui</a></li>
+          <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+          <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+        </ul>
+      </div>
+
+      <!-- Botón de reserva a la derecha -->
+      <a href="https://hotels.cloudbeds.com/es/reservation/Eos9vC?currency=usd" class="btn btn-outline-light ms-3 d-none d-lg-block" target="_blank" rel="noopener noreferrer">Reservar</a>
+    </div>
+  </nav>
+</header>
+
+  <!-- Banner -->
+  <section class="text-white text-center" style="background-image: url('Img-otros/moais_cerca_horizontal.jpg'); background-size: cover; background-position: center; height: 60vh;">
+    <div class="d-flex flex-column justify-content-center align-items-center h-100" style="background-color: rgba(0,0,0,0.4);">
+      <h1 class="display-4 fw-bold fade-up"; >Explora Rapa Nui</h1>
+      <p class="lead">Vive experiencias inolvidables con nuestros paquetes de tours personalizados</p>
+    </div>
+  </section>
+
+  <!-- Sección de tours -->
+  <section class="py-5">
+    <div class="container">
+      <div class="row g-4">
+
+        <!-- Tour Card -->
+        <div class="col-md-4 fade-up delay-1">
+            <div class="card text-white border-0 position-relative overflow-hidden" style="height: 400px;">
+              <img src="Img-tours/tour_hanga_roa.png" class="w-100 h-100 object-fit-cover" alt="Tour Amanecer">
+              <div class="position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-end p-4" style="background: rgba(0,0,0,0.4);">
+                <small>Half Day</small>
+                <h5><a href="tour_hanga_roa.html" class="text-white text-decoration-none">Hanga Roa: Única ciudad en Rapa Nui</h5>
+                <p class="mb-2">Desde $70.000 CLP</p>
+                <a href="tour_hanga_roa.html" class="btn btn-light btn-sm">Ver más</a>
+              </div>
+            </div>
+          </div>
+          
+
+        <!-- Tour Card 2-->
+        <div class="col-md-4 fade-up delay-2">
+            <div class="card text-white border-0 position-relative overflow-hidden" style="height: 400px;">
+              <img src="Img-tours/tour_amanecer.jpg" class="w-100 h-100 object-fit-cover" alt="Tour Amanecer">
+              <div class="position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-end p-4" style="background: rgba(0,0,0,0.4);">
+                <small>Full Day</small>
+                <h5><a href="tour_amanecer_tongariki.html" class="text-white text-decoration-none">Amanecer en Ahu tongariki</a></h5>
+                <p class="mb-2">Desde $120.000 CLP</p>
+                <a href="tour_amanecer_tongariki.html" class="btn btn-light btn-sm">Ver más</a>
+              </div>
+            </div>
+          </div>
+          
+
+        <!-- Tour Card 3-->
+        <div class="col-md-4 fade-up delay-3">
+            <div class="card text-white border-0 position-relative overflow-hidden" style="height: 400px;">
+              <img src="Img-tours/tour_costa_norte.jpg" class="w-100 h-100 object-fit-cover" alt="Tour Amanecer">
+              <div class="position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-end p-4" style="background: rgba(0,0,0,0.4);">
+                <small>Full Day</small>
+                <h5><a href="tour_costa_norte.html" class="text-white text-decoration-none">Tour Costa Norte Rapa Nui</a></h5>
+                <p class="mb-2">Desde $80.000 CLP</p>
+                <a href="tour_costa_norte.html" class="btn btn-light btn-sm">Ver más</a>
+              </div>
+            </div>
+          </div>
+                  <!-- Tour Card 4-->
+        <div class="col-md-4 fade-up delay-4">
+            <div class="card text-white border-0 position-relative overflow-hidden" style="height: 400px;">
+              <img src="Img-tours/tour_cuevas.jpg" class="w-100 h-100 object-fit-cover" alt="Tour Amanecer">
+              <div class="position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-end p-4" style="background: rgba(0,0,0,0.4);">
+                <small>Full Dat</small>
+                <h5><a href="tour_cuevas_ancestrales.html" class="text-white text-decoration-none">Cuevas Ancestrales y Orongo Rapa Nui</a></h5>
+                <p class="mb-2">Desde $115.000 CLP</p>
+                <a href="tour_cuevas_ancestrales.html" class="btn btn-light btn-sm">Ver más</a>
+              </div>
+            </div>
+          </div>
+          
+
+        <!-- Tour Card 5-->
+        <div class="col-md-4 fade-up delay-5">
+            <div class="card text-white border-0 position-relative overflow-hidden" style="height: 400px;">
+              <img src="Img-tours/tour_fabrica_moai.jpg" class="w-100 h-100 object-fit-cover" alt="Tour Amanecer">
+              <div class="position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-end p-4" style="background: rgba(0,0,0,0.4);">
+                <small>Full Day</small>
+                <h5><a href="tour_fabrica_moais.html" class="text-white text-decoration-none">Tour Privado Fabrica De Los Moais</a></h5>
+                <p class="mb-2">Desde $135.000 CLP</p>
+                <a href="tour_fabrica_moais.html" class="btn btn-light btn-sm">Ver más</a>
+              </div>
+            </div>
+          </div>
+          
+
+        <!-- Tour Card 6-->
+        <div class="col-md-4 fade-up delay-6">
+            <div class="card text-white border-0 position-relative overflow-hidden" style="height: 400px;">
+              <img src="Img-tours/tour_orongo.jpg" class="w-100 h-100 object-fit-cover" alt="Tour Amanecer">
+              <div class="position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-end p-4" style="background: rgba(0,0,0,0.4);">
+                <small>Half Day</small>
+                <h5><a href="tour_ranokau_y_orongo.html" class="text-white text-decoration-none">Volcán Rano Kau y Orongo</a></h5>
+                <p class="mb-2">Desde $60.000 CLP</p>
+                <a href="tour_ranokau_y_orongo.html" class="btn btn-light btn-sm">Ver más</a>
+              </div>
+            </div>
+          </div>
+          
+
+        <!-- Agrega más tarjetas según lo necesario -->
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-dark text-white pt-5 pb-3 mt-5  fade-up delay-2">
+    <div class="container">
+      <div class="row">
+        <!-- Columna 1: Información -->
+        <div class="col-md-4 mb-4">
+          <h5 class="text-uppercase mb-3">INFORMACIÓN:</h5>
+          <hr class="bg-white" style="width: 60px;">
+          <p><i class="bi bi-geo-alt-fill"></i> Atamu Tekena 2770000, Hanga Roa, Isla de Pascua, Chile.</p>
+          <p>Tel: +56 9 3391 4780 / +56 9 7603 5591</p>
+          <p><i class="bi bi-envelope-fill"></i> Mail: <a href="mailto:reservas@harenua.cl" class="text-white">reservas@harenua.cl</a></p>
+          <p>Aeropuerto internacional Mataveri de Isla de Pascua</p>
+          <p><i class="bi bi-airplane-fill"></i> Distancia al aeropuerto: 1.03 km</p>
+          <p>Vuelos a la isla: LATAM</p>
+          <div class="mt-2">
+            <a href="#" class="text-white me-3"><i class="bi bi-facebook fs-5"></i></a>
+            <a href="#" class="text-white"><i class="bi bi-instagram fs-5"></i></a>
+          </div>
+        </div>
+  
+        <!-- Columna 2: Mapa -->
+        <div class="col-md-4 mb-4">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3892.611182130908!2d-109.42624888587255!3d-27.15012828299363!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x994aef1b991b7ad5%3A0x3ff4fc350c6ab7ff!2sHotel%20Hare%20Nua!5e0!3m2!1ses-419!2scl!4v1712472101608!5m2!1ses-419!2scl"
+            width="100%"
+            height="250"
+            style="border:0;"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+  
+        <!-- Columna 3: Otros enlaces e insignias -->
+        <div class="col-md-4 mb-4">
+          <h5 class="text-uppercase mb-3">OTROS</h5>
+          <hr class="bg-white" style="width: 60px;">
+          <ul class="list-unstyled">
+            <li><a href="index.html" class="text-white">Inicio</a></li>
+            <li><a href="habitaciones.html" class="text-white">Habitaciones</a></li>
+            <li><a href="matrimonios.html" class="text-white">Matrimonios Ancestrales</a></li>
+            <li><a href="informacion.html" class="text-white">Información Rapa Nui</a></li>
+            <li><a href="blog.html" class="text-white">Blog</a></li>
+            <li><a href="contacto.html" class="text-white">Contacto</a></li>
+          </ul>
+          <div class="mt-3">
+          <img src="Img-otros/logo_blanco.png" alt="Logo Hotel" class="img-fluid mt-2" width="120">
+        </div>
+      </div>
+  
+      <div class="text-center mt-4">
+        <small>&copy; 2025 Hotel Rapa Nui. Todos los derechos reservados | Desarrollado por <a href="#" class="text-pink">Nicolás L.</a></small>
+      </div>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="main.js"></script>
+
+</body>
+</html>
