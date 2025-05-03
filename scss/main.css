@@ -681,3 +681,16 @@ footer a:hover {
 .sobre-hotel .row {
   min-height: 500px;
 }
+.btn-white-blue {
+  background-color: #ffffff;
+  color: #013D5A; /* Azul institucional o el que prefieras */
+  border: 1px solid #013D5A;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  transition: all 0.3s ease;
+}
+
+.btn-white-blue:hover {
+  background-color: #013D5A;
+  color: #ffffff;
+}
