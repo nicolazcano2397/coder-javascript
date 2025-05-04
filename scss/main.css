@@ -529,7 +529,7 @@ footer a:hover {
   }
 }
 .imagen-hotel {
-  background-image: url("Img-hotel/piscina_hotel_vertical.jpg");
+  background-image: url("/Img-hotel/piscina_hotel_vertical.jpg");
   background-position: center;
   background-size: cover;
   height: 100%;
@@ -683,7 +683,7 @@ footer a:hover {
 }
 .btn-white-blue {
   background-color: #ffffff;
-  color: #013D5A; /* Azul institucional o el que prefieras */
+  color: #013D5A; 
   border: 1px solid #013D5A;
   border-radius: 5px;
   padding: 0.5rem 1rem;
