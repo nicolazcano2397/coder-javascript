@@ -694,3 +694,18 @@ footer a:hover {
   background-color: #013D5A;
   color: #ffffff;
 }
+.navbar .btn-outline-light {
+  background-color: #ffffff;
+  color: #013D5A;
+  border: 1px solid #013D5A;
+  border-radius: 5px;
+  font-weight: 600;
+  padding: 0.5rem 1.2rem;
+  transition: all 0.3s ease;
+}
+
+.navbar .btn-outline-light:hover {
+  background-color: #013D5A;
+  color: #ffffff;
+  border-color: #ffffff;
+}
