@@ -3,12 +3,13 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="¿Buscas una experiencia úncia en tu relación? Te invitamos a llevar acabo el matrimonio ancestral, ceremonia tradicional en Rapa Nui, llena de magia y única desde el corazón">
+  <meta name="description" content="Experimenta la calma y tranquilidad en el mejor hotel en Rapa Nui. Alojamiento con cultura y tradición local." />
   <link rel="icon" href="../Img-otros/logo.png" type="image/x-icon">
-  <title>Matrimonios Ancestrales | Hotel Rapa Nui</title>
+  <title>Habitaciones | Hotel Rapa Nui</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
     <!-- Custom SCSS -->
     <link rel="stylesheet" href="scss/main.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 </head>
 <body>
  <!-- NAVBAR -->
@@ -17,8 +18,8 @@
     <div class="container d-flex align-items-center justify-content-between">
       
       <!-- Logo a la izquierda -->
-      <a class="navbar-brand fw-bold fs-4" href="index.html">
-        <img src="Img-otros/logo_blanco.png" alt="Hotel Rapa Nui Logo" style="height: 60px;">
+      <a class="navbar-brand fw-bold fs-4" href="../index.html">
+        <img src="../multimedia/otros/logo_blanco.png" alt="Hotel Rapa Nui Logo" style="height: 60px;">
       </a>
 
       <!-- Toggler para mobile -->
@@ -42,10 +43,10 @@
               Habitaciones
             </a>
             <ul class="dropdown-menu" aria-labelledby="habitacionesDropdown">
-              <li><a class="dropdown-item" href="habitaciones.html">Ver todas</a></li>
+              <li><a class="dropdown-item" href="/habitaciones.html">Ver todas</a></li>
               <li><a class="dropdown-item" href="habitaciones/habitacion_deluxe.html">Deluxe</a></li>
               <li><a class="dropdown-item" href="habitaciones/habitacion_superior.html">Superior</a></li>
-              <li><a class="dropdown-item" href="/habitaciones/habitacion_familiar.html">Familiar</a></li>
+              <li><a class="dropdown-item" href="habitaciones/habitacion_familiar.html">Familiar</a></li>
             </ul>
           </li>
           <li class="nav-item"><a class="nav-link" href="tours.html">Tours</a></li>
@@ -62,46 +63,94 @@
   </nav>
 </header>
 
-  <!-- CONTENIDO DE MATRIMONIOS ANCESTRALES -->
-  <section class="text-center text-white" style="background-image: url('Img-otros/matrimonios_ancestrales_1.jpg'); background-size: cover; background-position: center; height: 90vh; display: flex; align-items: center; justify-content: center;">
-    <div class="container">
-      <h1 class="display-3 fw-bold fade-up";> MATRIMONIOS ANCESTRALES</h1>
-      <p class="lead fade-up">Celebra tu unión con un rito lleno de historia y misticismo</p>
+  <!-- Banner -->
+  <section class="position-relative text-white text-center" style="background-image: url('Img-habitaciones/deluxe_horizontal_4.jpg'); background-size: cover; background-position: center; height: 70vh;">
+    <div class="d-flex align-items-center justify-content-center h-100 banner-entrada" style="background-color: rgba(0,0,0,0.4);">
+      <div>
+        <h1 class="display-4 fw-bold">Descansa con Estilo</h1>
+        <p class="lead">Explora nuestras habitaciones únicas con inspiración Rapa Nui</p>
+      </div>
     </div>
   </section>
 
-  <section class="py-5 bg-white">
+  <!-- Características -->
+  <section class="py-4 bg-white text-center border-bottom">
     <div class="container">
-      <div class="row align-items-center">
-        <div class="col-md-6">
-          <h2 class="fw-bold mb-3">Una ceremonia única desde el corazón de Rapa Nui</h2>
-          <p>Celebra el amor en su forma más pura y trascendental en Hotel Rapa Nui. Te invitamos a ser parte de una ceremonia ancestral única, cargada de simbolismo, espiritualidad y conexión con la naturaleza. <br><br>Bajo la guía de sabios Rapa Nui, vivirás un rito sagrado que honra las tradiciones de la isla, en un escenario natural que transmite paz y energía.
-            Una experiencia profundamente significativa, pensada para parejas que desean sellar su compromiso con un lazo eterno, en armonía con la cultura local y el entorno mágico de Rapa Nui.</p>
+      <div class="row row-cols-2 row-cols-md-4 g-4">
+        <div class="col">
+          <i class="bi bi-wifi fs-3 text-primary caracteristica-icono"></i>
+          <p class="mb-0 mt-2">WiFi Gratuito</p>
         </div>
-        <div class="col-md-6">
-          <img src="Img-otros/Matrimonios_ancestrales_2.jpg" class="img-fluid rounded" alt="Matrimonio en Rapa Nui">
+        <div class="col">
+          <i class="bi bi-cup-hot fs-3 text-primary caracteristica-icono"></i>
+          <p class="mb-0 mt-2">Desayuno Local</p>
+        </div>
+        <div class="col">
+          <i class="bi bi-flower2 fs-3 text-primary caracteristica-icono"></i>
+          <p class="mb-0 mt-2">Jardín Interior</p>
+        </div>
+        <div class="col">
+          <i class="bi bi-snow fs-3 text-primary caracteristica-icono"></i>
+          <p class="mb-0 mt-2">Ventilación Natural</p>
         </div>
       </div>
     </div>
   </section>
 
+  <!-- Habitaciones -->
   <section class="py-5 bg-light">
     <div class="container">
-      <div class="row">
-        <div class="col-md-4 text-center fade-up delay-1">
-          <img src="Img-otros/Matrimonios_ancestrales_5.jpg" class="img-fluid mb-3 rounded" alt="Ritual">
-          <h5>Ceremonia Ancestral</h5>
-          <p>Un rito tradicional dirigido por un guía espiritual, en espacios sagrados de la isla.</p>
+      <!-- Habitación Deluxe -->
+      <div class="row align-items-center mb-5">
+        <div class="col-md-6 slide-in-left">
+          <h3 class="fw-bold">Habitación Deluxe</h3>
+          <p>Ideal para parejas o viajeros que buscan comodidad premium. Cama king, decoración rústica local y terraza privada.</p>
+          <ul class="list-unstyled">
+            <li><strong>Tamaño:</strong> 28 m²</li>
+            <li><strong>Capacidad:</strong> 2 adultos</li>
+            <li><strong>Cama:</strong> King (180x200)</li>
+            <li><strong>Baño:</strong> Privado con ducha</li>
+          </ul>
+          <a href="habitaciones/habitacion_deluxe.html" class="btn btn-azul mt-3">Ver detalles</a>
         </div>
-        <div class="col-md-4 text-center fade-up delay-2">
-          <img src="Img-otros/Matrimonios_ancestrales_3.jpg" class="img-fluid mb-3 rounded" alt="Fotografía">
-          <h5>Fotografía & Producción</h5>
-          <p>Captura cada instante con fotografía profesional y ambientación especial.</p>
+        <div class="col-md-6">
+          <img src="../multimedia/habitaciones/deluxe_horizontal_1.jpg" class="img-fluid rounded shadow room-card-img" alt="Habitación Deluxe">
         </div>
-        <div class="col-md-4 text-center fade-up delay-3">
-          <img src="Img-otros/Matrimonios_ancestrales_4.jpg" class="img-fluid mb-3 rounded" alt="Coordinación">
-          <h5>Coordinación Personalizada</h5>
-          <p>Te acompañamos en todo momento para asegurar una experiencia inolvidable.</p>
+      </div>
+
+      <!-- Habitación Superior -->
+      <div class="row align-items-center mb-5 flex-md-row-reverse">
+        <div class="col-md-6 slide-in-right">
+          <h3 class="fw-bold">Habitación Superior</h3>
+          <p>Comodidad sin igual con detalles artesanales y una atmósfera acogedora para disfrutar Rapa Nui.</p>
+          <ul class="list-unstyled">
+            <li><strong>Tamaño:</strong> 24 m²</li>
+            <li><strong>Capacidad:</strong> 2 adultos</li>
+            <li><strong>Cama:</strong> Queen (160x200)</li>
+            <li><strong>Baño:</strong> Privado con ducha</li>
+          </ul>
+          <a href="habitaciones/habitacion_superior.html" class="btn btn-azul mt-3">Ver detalles</a>
+        </div>
+        <div class="col-md-6">
+          <img src="../multimedia/habitaciones/superior_1.jpg" class="img-fluid rounded shadow room-card-img" alt="Habitación Superior">
+        </div>
+      </div>
+
+      <!-- Habitación Familiar -->
+      <div class="row align-items-center mb-5">
+        <div class="col-md-6 slide-in-left">
+          <h3 class="fw-bold">Habitación Familiar</h3>
+          <p>Espacio amplio pensado para familias o grupos. Dos camas grandes, zona de estar y acceso a jardín.</p>
+          <ul class="list-unstyled">
+            <li><strong>Tamaño:</strong> 32 m²</li>
+            <li><strong>Capacidad:</strong> Hasta 4 personas</li>
+            <li><strong>Camas:</strong> 2 Queen (160x200)</li>
+            <li><strong>Baño:</strong> Ducha y amenities</li>
+          </ul>
+          <a href="habitaciones/habitacion_familiar.html" class="btn btn-azul mt-3">Ver detalles</a>
+        </div>
+        <div class="col-md-6">
+          <img src="../multimedia/habitaciones/familiar_horziontal_1.jpg" class="img-fluid rounded shadow room-card-img" alt="Habitación Familiar">
         </div>
       </div>
     </div>
@@ -145,7 +194,7 @@
           <h5 class="text-uppercase mb-3">OTROS</h5>
           <hr class="bg-white" style="width: 60px;">
           <ul class="list-unstyled">
-            <li><a href="index.html" class="text-white">Inicio</a></li>
+            <li><a href="../index.html" class="text-white">Inicio</a></li>
             <li><a href="habitaciones.html" class="text-white">Habitaciones</a></li>
             <li><a href="matrimonios.html" class="text-white">Matrimonios Ancestrales</a></li>
             <li><a href="informacion.html" class="text-white">Información Rapa Nui</a></li>
@@ -153,7 +202,7 @@
             <li><a href="contacto.html" class="text-white">Contacto</a></li>
           </ul>
           <div class="mt-3">
-          <img src="Img-otros/logo_blanco.png" alt="Logo Hotel" class="img-fluid mt-2" width="120">
+          <img src="../multimedia/otros/logo_blanco.png" alt="Logo Hotel" class="img-fluid mt-2" width="120">
         </div>
       </div>
   
