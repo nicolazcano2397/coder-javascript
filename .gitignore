@@ -1,30 +1,28 @@
-# Archivos del sistema (Mac)
+# macOS
 .DS_Store
+.AppleDouble
+.LSOverride
 
-# Archivos de sistema de VS Code
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.ico
+.com.apple.timemachine.donotpresent
+
+# VS Code
 .vscode/
+*.code-workspace
 
-# Archivos de backup temporales (por si usas editores que los generan)
-*~
-*.log
-*.tmp
-*.swp
-
-#Ignorar backups automáticos de editores
-*.bak
-
-# Carpetas o archivos que no quieras subir manualmente (ejemplo: fotos RAW, PSDs, etc.
-# /archivos-sin-subir/
-
-# Mapas de fuente CSS
-*.css.map
-
-# Cache de compilación Sass
-.sass-cache/
-.cache/
-
-# node_modules si usas npm o planificas usarlo en el futuro
+# Node modules (si los tienes)
 node_modules/
 
-# Archivos compilados de SCSS 
-# scss/main.css
+# Archivos de sistema
+Thumbs.db
+ehthumbs.db
+Desktop.ini

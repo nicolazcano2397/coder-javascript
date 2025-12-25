@@ -2,6 +2,8 @@
 
 Sitio web responsive y optimizado para el Hotel Hare Nua, ubicado en Rapa Nui (Isla de Pascua). Desarrollado con **HTML5**, **SCSS** siguiendo arquitectura 7-1, **JavaScript** personalizado y **Bootstrap 5.3**, incorpora diseño moderno, semántica, accesibilidad básica y técnicas de performance web.
 
+Se utilizó el sitio web realizado en los cursos anteriores (HTML / CSS), lo que se incorporó fue simulador.html así como también la carepta de js y su archivo simulador.js para poder cumplir con lo solicitado. Adicionalmente, en el sitio web se ajustó o incorporó botones que deriven a la landing de simulador.
+
 ---
 
 ## Estructura del sitio
@@ -13,6 +15,7 @@ Sitio web responsive y optimizado para el Hotel Hare Nua, ubicado en Rapa Nui (I
 - **Información Rapa Nui** – Tips de ingreso, qué llevar y FAQs.
 - **Blog** – Listado de entradas + vista individual.
 - **Contacto** – Formulario funcional y mapa de ubicación.
+- **Simulador** - Simulador apra el calculo de precio según los requerimientos del cliente en cuantpo a habitación, tours, personas, temprada, etc.
 
 ---
 
