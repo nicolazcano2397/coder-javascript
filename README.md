@@ -15,13 +15,11 @@ Este simulador está integrado en un sitio web completo del hotel, desarrollado 
 
 ---
 
-## 🚀 Demo en Vivo
+## Demo en Vivo
 
-🔗 **Repositorio GitHub:** https://github.com/TU-USUARIO/hotel-rapa-nui-simulador
+**Sitio:** https://nicolazcano2397.github.io/coder-javascript/
+**Simulador:** https://nicolazcano2397.github.io/coder-javascript/simulador.html
 
-📺 **Ver Demo:** https://tu-usuario.github.io/hotel-rapa-nui-simulador/simulador.html
-
-> **Nota:** Actualiza estos enlaces después de subir el repositorio
 
 ---
 
